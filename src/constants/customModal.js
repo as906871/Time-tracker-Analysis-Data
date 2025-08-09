@@ -1,7 +1,7 @@
 import React, { useMemo } from 'react'
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 import { X, AlertCircle } from 'lucide-react';
-import { ViewformatDate } from '../utils/customFunction';
+import { ViewformatDate } from '../constants/customFunction';
 
 const CustomModal = ({ isOpen, onClose, selectedDate, selectedDateData }) => {
 

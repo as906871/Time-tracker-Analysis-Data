@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { formatDate, getDaysInMonth } from '../utils/customFunction';
+import { formatDate, getDaysInMonth } from '../constants/customFunction';
 
 const CustomCalendar = ({ onDateClick, highlightedDates }) => {
   const [currentDate, setCurrentDate] = useState(new Date());

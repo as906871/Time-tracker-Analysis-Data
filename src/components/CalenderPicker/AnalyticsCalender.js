@@ -3,7 +3,7 @@ import { CalendarDays } from "lucide-react";
 import { dummyData } from "../../utils/dummyData";
 import CustomCalendar from "../../constants/customCalender";
 import CustomModal from "../../constants/customModal";
-import { formatDate } from "../../utils/customFunction";
+import { formatDate } from "../../constants/customFunction";
 
 const UserAnalyticsCalendar = () => {
   const [selectedDate, setSelectedDate] = useState(null);
